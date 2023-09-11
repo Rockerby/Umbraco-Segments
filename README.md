@@ -12,7 +12,7 @@ Segments are a feature within Umbraco that have existed for a while, but are hid
 
 Firstly we need to enable segments (done in `SegmentHelper.Events.AllowSegmentationEvent`)
 
-Then we get the option within the back office to enable Segments.
+Then we get the option within the back office to enable Segments, same place in `Document Types` as with the `Vary by Culture` flag
 
 After creating a page you then have the same UI as with multi-languages to change segment data (drop-down in name bar)
 
