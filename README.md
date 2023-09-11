@@ -1,5 +1,5 @@
 # Umbraco Segments
-A small demo of getting started with segments in Umbraco 10.
+A small demo of getting started with segments in Umbraco 10. This was based on the [24 Days article](https://24days.in/umbraco-cms/2022/using-segmentation/) showing Umbraco segments in v8.
 
 ## How to get started
 Open `Segments.sln` and run the `Website` project or simply type the below from the command line in the project root:
@@ -8,7 +8,7 @@ dotnet run --project Website
 ``` 
 
 ## What's going on?
-Segments are a feature within Umbraco that have existed for a while, but are hidden.
+Segments are a feature within Umbraco that have existed for a while, but are hidden. The [24 Days article](https://24days.in/umbraco-cms/2022/using-segmentation/) does a great job of explaining each step.
 
 Firstly we need to enable segments (done in `SegmentHelper.Events.AllowSegmentationEvent`)
 
