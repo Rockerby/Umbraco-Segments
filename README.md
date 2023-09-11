@@ -16,6 +16,8 @@ Then we get the option within the back office to enable Segments.
 
 After creating a page you then have the same UI as with multi-languages to change segment data (drop-down in name bar)
 
+A test page has been setup. Visit https://localhost:44369/blog/segment to see the regular page and then https://localhost:44369/blog/segment?segment to see the segmented page
+
 ## Issues
 - There's a few issues with segments, mainly centred around the UI within Umbraco itself. I've found issues when pages have been created that you need to refresh them in order to see the segment options.
 - New segments can't be added to existing nodes, likely fixed by altering `SegmentHelper.Events.CreateSegmentsEvent`.
