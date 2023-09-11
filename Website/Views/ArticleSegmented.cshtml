@@ -7,6 +7,10 @@
 
 @await Html.PartialAsync("~/Views/Partials/pageHeader.cshtml", new PageHeaderViewModel(Model.Name, Model.Title, Model.Subtitle, Model.MainImage, Model.AuthorName, Model.ArticleDate))
 
+
+
+
 <article>
+    <p style="text-align">@(Model.Value<string>("Segmented"))</p>
     @Html.GetGridHtml(Model, "mainContent", "Clean")
 </article>
